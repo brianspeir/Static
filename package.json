@@ -1,0 +1,63 @@
+{
+    "name": "static",
+    "version": "0.0.1",
+    "description": "This is a description.",
+    "homepage": "http://www.github.com/brianspeir/Static",
+    "license": "BSD-3-Clause",
+    "author": {
+        "name": "Brian Speir",
+        "email": "no-reply@brianspeir.com",
+        "url": "http://www.brianspeir.com"
+    },
+    "directories": {
+        "cache": "derived/cache",
+        "doc": "./documents",
+        "fonts": "fonts",
+        "images": "images",
+        "intermediates": "derived/intermediates",
+        "partials": "templates",
+        "resources": "derived/resources",
+        "scripts": "scripts",
+        "source": ".",
+        "stylesheets": "stylesheets"
+    },
+    "repository": {
+        "type": "git",
+        "url": "http://www.github.com/brianspeir/Static",
+        "username": "brianspeir"
+    },
+    "config": {
+        "globbing": "{,*/}*",
+        "hostname":"localhost",
+        "port": "8000",
+        "protocol": "http"
+    },
+    "dependencies": {
+        "grunt": "~0.4.4",
+        "grunt-autoprefixer": "~0.7.2",
+        "grunt-build-control": "0.1.2",
+        "grunt-contrib-clean": "~0.5.0",
+        "grunt-contrib-concat": "~0.4.0",
+        "grunt-contrib-connect": "~0.7.1",
+        "grunt-contrib-copy": "~0.5.0",
+        "grunt-contrib-cssmin": "~0.9.0",
+        "grunt-contrib-htmlmin": "~0.2.0",
+        "grunt-contrib-imagemin": "~0.6.1",
+        "grunt-contrib-jshint": "~0.10.0",
+        "grunt-contrib-uglify": "~0.4.0",
+        "grunt-contrib-watch": "~0.6.1",
+        "grunt-filerev": "0.2.1",
+        "grunt-html-validation": "0.1.15",
+        "grunt-modernizr": "~0.5.2",
+        "grunt-processhtml": "~0.3.3",
+        "grunt-newer": "~0.7.0",
+        "grunt-usemin": "~2.1.1",
+        "jshint-stylish": "0.1.5",
+        "load-grunt-tasks": "~0.4.0"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": "test_command"
+    },
+    "private": true
+}
